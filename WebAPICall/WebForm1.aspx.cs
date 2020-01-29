@@ -21,7 +21,7 @@ namespace WebAPICall
             {
                 client.BaseAddress = new Uri("http://localhost:58144/api/Demo/");
                 //HTTP GET
-                // First commet changes
+                // First commet changes committed
                 var responseTask = client.GetAsync("");
                 responseTask.Wait();
 
